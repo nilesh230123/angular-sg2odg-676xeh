@@ -1,6 +1,6 @@
 import { Component } from '@angular/core';
-import { products} from '../products';
-import { customers } from '../customersData';
+import { products} from './products';
+import { customers } from './customersData';
 
 @Component({
   selector: 'app-root',
@@ -9,7 +9,7 @@ import { customers } from '../customersData';
 })
 export class AppComponent {
 products=products;
-customers-customers;
+customers=customers;
 }
 
 
