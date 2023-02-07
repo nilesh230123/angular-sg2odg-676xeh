@@ -15,12 +15,14 @@
     <th>Email</th>
   </tr>
     </thead>
+    <tbody>
 <tr *ngFor="let customer of customers">
     <td>{{customer.customer_id}}</td>
     <td>{{customer.first_name}}</td>
     <td>{{customer.last_name}}</td>
     <td>{{customer.email}}</td>
   </tr>
+    </tbody>
 </table>
 
 
