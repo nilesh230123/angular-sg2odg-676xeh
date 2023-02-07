@@ -18,7 +18,7 @@
     <th>Email</th>
   </tr>
     </thead>
-< *ngFor="let customer of customers">
+<tr *ngFor="let customer of customers">
   {{productItem.name}}
 
 
@@ -27,9 +27,6 @@
     <td>{{customer.first_name}}</td>
     <td>{{customer.last_name}}</td>
     <td>{{customer.email}}</td>
-
-
-
   </tr>
 </table>
 
