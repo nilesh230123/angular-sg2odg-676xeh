@@ -8,7 +8,12 @@
 </style>
 </head>
 <body>
-
+  <tr>
+    <td>Alfreds Futterkiste</td>
+    <td>Maria Anders</td>
+    <td>Germany</td>
+  </tr>
+  
 <h1>customer Table</h1>
 <div *ngFor="let customer of customers">
   {{productItem.name}}
@@ -20,13 +25,8 @@
     <th>{{customer.last_name}}/th>
     <th>{{customer.email}}</th>
 
-  </tr>
-  <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
-  </tr>
-  
+
+
   </tr>
 </table>
 
