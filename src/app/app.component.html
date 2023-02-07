@@ -1,12 +1,12 @@
 
 <h2>Products</h2>
 <div *ngFor="let product of products">
+  <h4>
   {{product.name}}
+  </h4>
 </div>
-</head>
-<body>
   <h1>customer Table</h1>
-  <table id="customers">
+  <table>
     <thead>
   <tr>
     <th>customer Id</th>
@@ -16,10 +16,6 @@
   </tr>
     </thead>
 <tr *ngFor="let customer of customers">
-  {{productItem.name}}
-
-
-  <tr>
     <td>{{customer.customer_id}}</td>
     <td>{{customer.first_name}}</td>
     <td>{{customer.last_name}}</td>
