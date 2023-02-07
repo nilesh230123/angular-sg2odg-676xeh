@@ -13,5 +13,3 @@ customers=customers;
 }
 
 
-/*
-*/
