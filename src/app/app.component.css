@@ -1,19 +1,18 @@
-#customers {
+table {
   font-family: Arial, Helvetica, sans-serif;
   border-collapse: collapse;
   width: 100%;
 }
 
-#customers td, #customers th {
+th,table td {
   border: 1px solid #ddd;
   padding: 8px;
 }
 
-#customers tr:nth-child(even){background-color: #f2f2f2;}
+ tr:nth-child(even){background-color: #f2f2f2;}
+ tr:hover {background-color: #ddd;}
 
-#customers tr:hover {background-color: #ddd;}
-
-#customers th {
+ th {
   padding-top: 12px;
   padding-bottom: 12px;
   text-align: left;
