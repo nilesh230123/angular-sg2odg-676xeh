@@ -4,8 +4,8 @@ import { customers } from '../customersData';
 
 @Component({
   selector: 'app-root',
-  templateUrl: '../Offer.component.html',
-  styleUrls: ['../Offer.component.css']
+  templateUrl: './Offer.component.html',
+  styleUrls: ['./Offer.component.css']
 })
 export class AppComponent {
 products=products;
