@@ -8,7 +8,7 @@ import { customers } from '../customersData';
   styleUrls: ['./offer.component.css'],
 
 })
-// export class AppComponent {
+//  export class AppComponent {
 // products=products;
 // customers=customers;
 // }
