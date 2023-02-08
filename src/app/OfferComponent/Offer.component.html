@@ -1,0 +1,30 @@
+
+<h2>Products</h2>
+<div *ngFor="let product of products">
+  <h4>
+  {{product.name}}
+  </h4>
+</div>
+  <h1>Customer Table</h1>
+  <table>
+    <thead>
+  <tr>  
+      <th>Address Id</th>
+    <th>Customer Id</th>
+    <th>First Name</th>
+    <th>Last Name</th>
+    <th>Email</th>
+  </tr>
+    </thead>
+    <tbody>
+<tr *ngFor="let customer of customers">
+  <td>{{customer.address_id}}</td>
+    <td>{{customer.customer_id}}</td>
+    <td>{{customer.first_name}}</td>
+    <td>{{customer.last_name}}</td>
+    <td>{{customer.email}}</td>
+  </tr>
+    </tbody>
+</table>
+
+
